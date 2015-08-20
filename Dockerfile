@@ -1,5 +1,7 @@
 FROM ubuntu:14.04
 
+MAINTAINER Satoshi Yazawa https://github.com/yacchin1205/
+
 # install dependencies
 RUN apt-get update && apt-get install -y curl
 
